@@ -1,0 +1,68 @@
+@CHARSET "UTF-8";
+
+#wrapper {
+	width: 1240px; 
+	min-height: 500px; 
+	margin: 0 auto; 
+	border: 1px solid;
+}
+
+#wrapper #header {
+	height: 40px; 
+	border: 1px solid;
+}
+
+#wrapper #header .logo {
+	border: 1px solid; 
+	width: 300px; 
+	height: 40px; 
+	float: left;
+}
+
+#wrapper #header .menu {
+	border: 1px solid; 
+	width: 600px; 
+	height: 40px; 
+	float: left;
+}
+
+#wrapper #header .menu li {
+	width: 100px; 
+	float: left;
+}
+
+#wrapper #header .tool {
+	border: 1px solid; 
+	width: 200px; 
+	height: 40px; 
+	float: right;
+}
+
+
+#wrapper #breadcrumb {
+	height: 30px; 
+	border: 1px solid;
+}
+
+#wrapper #main {
+	overflow: hidden;
+}
+
+#wrapper #main #left {
+	float: left;  
+	width: 300px; 
+	min-height: 500px; 
+	border: 1px solid;
+}
+
+#wrapper #main #content {
+	float: right; 
+	width: 920px; 
+	min-height: 500px; 
+	border: 1px solid;
+}
+
+#wrapper #footer {
+	height: 40px; 
+	boder: 1px solid;
+}
